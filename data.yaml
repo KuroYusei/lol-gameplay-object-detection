@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['Enemy_Champ', 'Enemy_Minion', 'Enemy_Turret', 'Friend_Champ', 'Friend_Minion', 'Friend_Turret', 'Player_Champ']
+
+roboflow:
+  workspace: lolbotdetection
+  project: leaguebotdetection
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/lolbotdetection/leaguebotdetection/dataset/7
